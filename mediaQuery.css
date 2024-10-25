@@ -1,0 +1,163 @@
+@media only screen and (max-width: 383px){
+   #naav{
+    display: none;
+   } 
+   .hea{
+      padding: 0px;
+   }
+    .navv{
+      position: sticky;
+      padding: 0px;
+    }
+    .search{
+      display: none;
+    }
+    .course{
+      display: none;
+    }
+    .imag{
+      margin: 10px;
+    }
+    .imag input{
+      width: 300px;
+    }
+    .imag-2{
+      display: none;
+    }
+    .fig{
+      padding: 0px;
+      display: block;
+    }
+    figure{
+      padding-left: 0px;
+    }
+    .figure i{
+      font-size: 2px;
+    }
+    .line{
+      width: 300px;
+    }
+    .imgg img{
+      margin-left: 10px;
+    }
+    .explore{
+      padding:5px;
+      font-size: 15px;
+    }
+    .butons{
+      margin: 20px;
+      width: auto;
+    }
+    .butons button{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .card span{
+      margin-right: 10px;
+    }    
+    .cf{
+      font-size: 2px;
+    }
+    .cf i{
+      font-size: 6px;
+    }
+    .keyfea{
+      margin-top: 20px;
+      display: block;
+    }
+    .features{
+      width: 280px;
+    }
+    .moveimg{
+      margin-left: 260px;
+      width:60px ;
+    }
+    .industries{
+      padding-left: 10px;
+    }
+    .partnering{
+      margin-top:20px;
+    }
+    .partnering img{
+      width: 50px;
+      margin: 5px;
+    }
+    .partnering .aws{
+      width: 10px;
+    }
+    .colap{
+      display: block;
+      padding: 0px;
+      margin-top:30px;
+    }
+    .colla{
+      padding-top: 20px;
+      align-items: start;
+    }
+    .access{
+      display: block;
+      padding: 10px;
+    }
+    .access img{
+      width: 150px;
+    }
+    .access ul{
+      display: block;
+    }
+    .enterprise{
+      display: block;
+      padding: 10px;
+    }
+    .enterprise img{
+      width: 320px;
+    }
+    .assistance{
+      padding: 10px;
+    }
+    .assistance img{
+      margin: 10px;
+      width: 320px;
+      height: 200px;
+    }
+    .supdiv{
+      display: block;
+    }
+    .robust{
+      display: block;
+      padding: 10px;
+    }
+   .robust img{
+      width: 200px;
+   }
+   .testimonials{
+      text-align: start;
+   }
+   .testimo{
+      display: block;
+   }
+   .community img{
+      margin-left: 10px;
+      width: 100px;
+   }
+   .har{
+      display: block;
+   }
+   .framee{
+      width: 90%;
+   }
+   .freeDemo{
+      display: block;
+   }
+   .sepfoot{
+      display: block;
+   }
+   .sepfoot i{
+    font-size: 15px;
+   }
+   .he5{
+      display: block;
+   }
+   .footstic span{
+      display: none;
+   }
+}

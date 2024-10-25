@@ -1,0 +1,496 @@
+#naav{
+    padding-left: 610px;
+    padding-top: 3px;
+    padding-bottom:3px;
+
+}
+.hea{
+    padding-left: 150px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.svg{
+    height:40px; width:200px;
+}
+.navv{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    padding-left: 150px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.search{
+    margin-left: 300px;
+    width: 380px;
+    height: 35px;
+}
+.search input{
+    width: 300px;
+}
+.search i{
+    margin-right: 10px;
+}
+.course{
+    width: 120px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.course:hover{
+    background-color: red;
+}
+.imag{
+    margin-top: 150px;
+}
+.red{
+    color: rgb(176, 10, 10);
+}
+.imag input{
+    border: 2px solid white;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    width: 550px;
+    margin-top: 40px;
+}
+.imag-2{
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.fig{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 200px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+figure{
+    text-align: center;
+    padding-left: 50px;
+}
+figure i{
+    color: yellow;
+    font-size: 8px;
+}
+.figs{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+} 
+.line{
+    height: 60px;
+    border-right: 1px solid grey;
+    padding: 10px;
+    font-size: 10px;
+    color: gray;
+}
+.imgg img{
+    width: 100px;
+    margin-left: 60px;
+}
+.explore{
+    padding-left: 150px;
+    padding-right: 200px;
+    text-align: center;
+    justify-content: center; 
+}
+.butons{
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 550px;
+    margin-left: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.butons button{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 40px;
+    margin-left: 30px;
+    height: 30px;
+}
+.butons button:hover{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.explore .active{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.butons:hover .active{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.card{
+    background-color: rgb(228, 236, 235);
+    width: 350px;
+    justify-content: space-between;
+    padding: 30px;
+}
+.card:hover{
+    cursor:pointer;
+}
+.card button:hover{
+    background-color: white;
+    border: none;
+}
+.card img{
+    width: 70px;
+}
+.card .fa-star{
+    color: yellow;
+}
+.card span{
+    color: gray;
+    margin-right: 80px;
+}
+.cf{
+    display: flex;
+    justify-content: space-between;
+}
+.cf i{
+    color: gray;
+    font-size: 12px;
+}
+.keyfea{
+    margin-top: 150px;
+    display: flex;
+}
+.features{
+    text-align: left;
+    padding-top: 120px;
+    border-right: 5px ridge rgb(239, 231, 231);
+    width: 400px;
+}
+.moveimg{
+    width:80px;
+    margin-left:380px;
+    margin-top:-150px;
+    position:sticky;
+    top: 500px;
+}
+.industries{
+    padding-left: 200px;
+}
+.industries img{
+    width: 70px;
+}
+.industry{
+     text-align: start;
+     margin-left: 30px;
+}
+.partnering{
+    margin-top:150px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(194, 228, 242);
+}
+.partnering img{
+    width: 160px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.partnering .aws{
+    width: 70px;
+}
+.colap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-left: 150px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.colla{
+    padding-top: 100px;
+    align-items: center;
+}
+.pinkBox{   
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(247, 144, 153);
+    padding-top: 80px;
+}
+.blueBox{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color:rgba(45, 116, 188, 0.532);
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.yellowBox{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color:sandybrown;
+    padding-top: 50px;
+    margin-left: -50px;
+}
+.violetBox{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color:rgb(159, 146, 241);
+    padding-top: 60px;
+}
+.access{
+    display: flex;
+    justify-content: space-between;
+    padding-left:150px;
+    padding-right: 200px;
+    padding-top: 100px;
+    background-color: rgb(194, 228, 242);
+    padding-bottom: 50px;
+}
+.access img{
+    width: 280px;
+}
+.access ul{
+    display: grid;
+    grid-template-columns:6fr 6fr;
+}
+.enterprise{
+    display: flex;
+    justify-content: space-between;
+    padding-left:150px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.enterprise img{
+    width: 450px;
+}
+.enterprise div{
+    line-height: 35px;
+}
+.assistance{
+    padding-left: 150px;
+    padding-right: 200px;
+    background-color: rgb(194, 228, 242);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.assistance hr{
+    color: red;
+    margin-top: 50px;
+}
+.assistance img{
+    height: 370px;
+    margin-left: 100px;
+}
+.assistance button{
+    border: 1px solid red;
+    background-color: rgb(194, 228, 242);
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.assistance button:hover{
+    background-color: red;
+    color: white;
+}
+.support img{
+    width: 200px;
+    height: 150px;
+    margin-right: 2%;
+}
+.supdiv{
+    display: flex;
+}
+.support button{
+    border: 1px solid red;
+    background-color: rgb(194, 228, 242);
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 2%;   
+    color: red;
+}
+.support a{
+    color:gray;
+    text-decoration: none;
+}
+.support a:hover{
+    text-decoration: underline;
+}
+.support ul::content{
+    content:✔;
+    color: green;
+}
+.robust{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.robust img{
+    width: 35%;
+}
+.robust hr{
+    margin-top: 10%;
+}
+.robust ul{
+    line-height: 3;
+    list-style: circle;
+}
+.testimonials{
+    text-align: center;
+    background-color:rgb(194, 228, 242);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.testimo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.testimo h3 {
+    color: navy;
+}
+.testimo h5{
+    font-size: 17px;
+}
+.hid{
+    display: none;
+}
+.community{
+    padding-left: 15%;
+    padding-right: 18%;
+    padding-top:4%;
+    padding-bottom: 2%;
+}
+.community img{
+    width: 330px;
+    margin-left: 150px;
+}
+.platform{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.platform img{
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 3%;
+    height: 10%;
+}
+.hear{
+    padding-left: 15%;
+    padding-right: 18%;
+    padding-top:4%;
+    padding-bottom: 2%; 
+    text-align: center;
+}
+.har{
+    justify-content: space-between;
+     display:flex;
+}
+.fram{
+    width: 90%;
+}
+.framee{
+    height: 53.5%;
+
+}
+.you{
+    margin-left: -60%;
+}
+.captcha{
+    width: 20%;
+    margin-left: 10%;
+}
+.freeDemo{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.freeDemo .name{
+    width: 60%;
+    padding: 2%;
+}
+.freeDemo .box{
+    width: 30%;
+    padding: 2%;
+}
+.freeDemo .messag{
+    width: 90%;
+    padding: 2%;
+}
+.chec{
+    border: 1px ridge grey;
+    padding: 3%;
+    width: 50%;
+    font-weight: bold;
+}
+footer{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer p{
+    font-size: 90%;
+}
+.he5{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+.sepfoot{
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    background-color: rgba(22, 5, 5, 0.73);
+    color: white;
+}
+.sepfoot i{
+    font-size: 25px;
+    margin-left: 10%;
+}
+.copyri{
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 3%;
+}
+.footstic{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding-left: 12%;
+    padding-right: 15%;
+    padding-top: 0.5%;
+}
+.footstic button{
+    margin-left: 16%;
+}
+.footstic i{
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 300%;
+    margin-top:-30px;
+    float: right;
+}
